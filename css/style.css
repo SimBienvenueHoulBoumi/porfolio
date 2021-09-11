@@ -1,3 +1,4 @@
+/* caractériser les liens */
 .navbar-nav .nav-link{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -8,6 +9,7 @@
     font-size: 25px;
 }
 
+/* caractéristique de la banniere */
 .banniere{
     height: 400px;
     background-color: rgb(84, 122, 110);
@@ -15,22 +17,57 @@
     flex-direction: column;
 }
 
+/* définir le style du slogan */
 .slogan{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 45px;
 }
 
+/* dimensionner le block les articles */
+.card{
+    width: 350px;
+}
+
+article{
+    display: flex;
+}
+
+/* centrer les elements de la banniére */
 .banniere{
     justify-content: center;
     align-items: center;
 }
 
+
+/* définir les caractéristiques du bouton contact */
 #contact{
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* redimensionner le bouton de la banniere */
 .banniere button{
     width: 250px;
     height: 40px;
+}
+.card{
+    margin: 5px;
+    height: 300px;
+}
+
+.article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.metier{
+    height: 50px;
+    background-color: rgb(84, 122, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
 }
