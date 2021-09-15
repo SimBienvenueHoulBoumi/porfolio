@@ -13,7 +13,7 @@
 
 /* caractéristique de la banniere */
 .banniere{
-    height: 450px;
+    height: 500px;
     background-image: url("/images/banniere-porfolio.png");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -51,7 +51,7 @@ article{
 /* redimensionner le bouton de la banniere */
 .banniere button{
     width: 250px;
-    height: 45px;
+    height: 60px;
 }
 
 .card{
@@ -96,7 +96,7 @@ article{
 
 .metier{
     height: 50px;
-    background: rgba(100, 199, 219,0.2);
+    background: rgba(66, 149, 160, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
