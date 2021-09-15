@@ -1,0 +1,28 @@
+.navbar-nav .nav-link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#logo{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    margin-top: 3px;
+    font-size: 25px;
+}
+
+a{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.langages{
+    width: 85%;
+    margin: auto;
+}
+.card-header{
+    background: linear-gradient(rgba(111, 203, 206, 0.4),rgba(108, 231, 174, 0.4),rgba(141, 159, 168, 0.4));
+}
+
+.card{
+    margin: 10px;
+}
