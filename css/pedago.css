@@ -1,0 +1,32 @@
+.navbar-nav .nav-link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#logo{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    margin-top: 3px;
+    font-size: 25px;
+}
+
+.card{
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    margin: 5px;
+}
+
+.card img{
+    width: 30%;
+    border-right: solid 1px rgb(209, 205, 205);
+}
+
+article{
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
